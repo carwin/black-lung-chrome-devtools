@@ -27,7 +27,7 @@
     cursor: pointer !important;
   }
   .toolbar-label {
-    color: #dfdfdf !important;
+    color: #000 !important;
     text-transform: lowercase !important; 
   }
   .toolbar-item:hover {
@@ -62,7 +62,7 @@
    }
   #bottom-status-bar-container * {
    text-shadow: none !important;
-   color: #fff !important;
+   color: #000 !important;
    font-weight: normal !important; 
   }
   
