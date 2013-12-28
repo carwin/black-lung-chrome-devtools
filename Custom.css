@@ -29,7 +29,7 @@
 /*******************************************************************************
  *  Toolbar
  ******************************************************************************/
-#toolbar {
+#-webkit-web-inspector #toolbar {
   background: linear-gradient(to bottom, #1d1d1d 0%,#333333 100%) !important;
 }
 .toolbar-item {
