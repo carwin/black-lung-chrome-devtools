@@ -7,14 +7,14 @@
 
  #main-panels,
  .network-log-grid.data-grid tr.filler {
-  background: #1b1b1b !important; 
+  background: #1b1b1b !important;
  }
- 
+
  /**
   * Audits
   */
 .panel-enabler-view {
- background: #1b1b1b !important; 
+ background: #1b1b1b !important;
 }
 /**
  *  Toolbar
@@ -28,13 +28,13 @@
   }
   .toolbar-label {
     color: #000 !important;
-    text-transform: lowercase !important; 
+    text-transform: lowercase !important;
   }
   .toolbar-item:hover {
-    background: linear-gradient(to bottom, #000000 0%,#4e4e4f 100%) !important; 
+    background: linear-gradient(to bottom, #000000 0%,#4e4e4f 100%) !important;
   }
   .toolbar-item:hover .toolbar-label {
-    color: #ffffff !important; 
+    color: #ffffff !important;
   }
   .toolbar-item.toggled-on {
     background: #777 !important;
@@ -45,8 +45,8 @@
    text-shadow: 0 0 8px #000 !important;
    color: #ffffff !important;
   }
-    
-    
+
+
 /**
  * Statusbar
  */
@@ -63,15 +63,15 @@
   #bottom-status-bar-container * {
    text-shadow: none !important;
    color: #000 !important;
-   font-weight: normal !important; 
+   font-weight: normal !important;
   }
-  
+
   #floating-status-bar-container {
       background: linear-gradient(to bottom, #1d1d1d 0%,#333333 100%) !important;
   }
   #floating-status-bar-container * {
       text-shadow: none !important;
-      color: #000 !important; 
+      color: #000 !important;
   }
   .crumb.end, .crumbs .crumb.end.selected {
     background-color: #000 !important;
@@ -86,9 +86,9 @@
    color: #fff !important;
  }
  .network-log-grid.data-grid select {
-   color: #fff !important; 
+   color: #fff !important;
  }
- 
+
  /**
   * Sources Panel
   */
@@ -106,16 +106,16 @@
    border: none !important;
    font-size: 10px !important;
   }
- 
+
 /**
  * Sidebars (general)
  */
  .panel .sidebar, .sidebar-overlay {
-   background-color: #313131 !important; 
+   background-color: #313131 !important;
    box-shadow: inset 1px 1px 10px #000 !important;
  }
  .outline-disclosure > ol {
-  color: #aeaeae !important; 
+  color: #aeaeae !important;
  }
 
 /* Image info in resources panel */
@@ -147,12 +147,12 @@
  * Right Sidebar
  */
  .split-view-contents-vertical {
-  color: #ffffff !important; 
+  color: #ffffff !important;
  }
  .sidebar-separator {
    background: linear-gradient(to bottom, #1d1d1d 0%,#333333 100%) !important;
    color: #ddd !important;
-   text-shadow: none !important; 
+   text-shadow: none !important;
  }
 .base-storage-tree-element-subtitle {
   color: #fff !important;
@@ -173,7 +173,7 @@
  * HTML Panel
  */
  #elements-content {
-   
+
  }
      /**
       * HTMLs
@@ -184,11 +184,11 @@
       .webkit-html-comment {
         color: #6f6f6f !important;
       }
-  
+
       .webkit-html-tag {
         color: #00ade8 !important;
       }
-  
+
       .webkit-html-attribute-name {
          color: #68dd4e !important;
       }
@@ -196,7 +196,7 @@
         font-weight: lighter !important;
         color: #bbb !important;
       }
-  
+
       .webkit-html-text-node,
       .webkit-html-css-node {
         color: white !important;
@@ -204,42 +204,42 @@
       .webkit-html-js-node {
         color: #C2C3C3 !important;
       }
-  
+
       .webkit-html-resource-link,
       .webkit-html-external-link {
         color: #d3b109 !important;
       }
-      
+
  /**
   * CSS Stuff
   */
   .webkit-css-comment {
     color: #7C7C7C !important;
   }
-  
+
   .webkit-css-selector,
   .styles-selector {
     color: #a2dcea !important;
   }
-  
+
   .webkit-css-property {
     color: #68dd4e !important;
   }
-  
+
   .webkit-css-keyword {
     color: #7fbd00 !important;
   }
   .selector-matches {
-    color: #00ade8 !important; 
+    color: #00ade8 !important;
   }
   .webkit-css-number {
     color: #c1f43b !important;
   }
- 
+
   .webkit-css-string {
     color: #7fbd00 !important;
   }
-  
+
   .webkit-css-url {
     color: #7fbd00 !important;
   }
@@ -248,72 +248,72 @@
   /**********************************************/
   /* Messages
   /**********************************************/
-  
+
   #-webkit-web-inspector #console-messages {
     font-family: 'Inconsolata', Menlo, monospace !important;
     background: #1C1E21;
   }
-  
+
   #-webkit-web-inspector #console-messages a {
     color: #666 !important;
   }
-  
+
   #-webkit-web-inspector #console-messages a:hover {
     color: #999 !important;
   }
-  
+
   #-webkit-web-inspector .console-message {
     color: #F1F1F1 !important;
   }
-  
+
   #-webkit-web-inspector .console-message, .console-user-command {
     border-bottom: 1px solid #444 !important;
   }
-  
+
   #-webkit-web-inspector .console-user-command > .console-message-text {
     color: #C4C7C6 !important;
   }
-  
+
   #-webkit-web-inspector .console-formatted-number {
     color: #EEC574 !important;
   }
-  
+
   #-webkit-web-inspector .console-formatted-string {
     color: #B5BC67 !important;
   }
-  
+
   #-webkit-web-inspector .console-formatted-object {
     color: #7C7C7C !important;
   }
-  
+
   #-webkit-web-inspector .console-formatted-function {
     color: #FFF !important;
   }
-  
+
   #-webkit-web-inspector .console-formatted-regexp {
     color: #C96666 !important;
   }
-  
+
   #-webkit-web-inspector .console-group-messages .section .header .title {
     color: #F1F1F1 !important;
   }
-  
+
   #-webkit-web-inspector .console-group-messages .section .header::before,
   #-webkit-web-inspector .properties-tree li.parent::before {
     content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) !important;
   }
-  
+
   #-webkit-web-inspector .console-group-messages .section.expanded .header::before,
   #-webkit-web-inspector .properties-tree li.parent.expanded::before {
     content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
   }
-  
+
   @-webkit-keyframes webkit-error-level {
     0%   { color: #f77; !important }
     50%  { color: #f22; !important }
     100% { color: #f77; !important }
   }
-  
+
   #-webkit-web-inspector .console-error-level .console-message-text .title {
     color: #f66 !important;
     -webkit-animation-name: webkit-error-level;
@@ -321,19 +321,19 @@
     -webkit-animation-iteration-count: infinite;
     -webkit-timing-function: ease-in-out;
   }
-  
+
   #-webkit-web-inspector .console-user-command::before {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OTMzNzdGNUZDMTA1MTFFMDgwRUZGQ0JCMjgzMzU0MTYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OTMzNzdGNjBDMTA1MTFFMDgwRUZGQ0JCMjgzMzU0MTYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5MzM3N0Y1REMxMDUxMUUwODBFRkZDQkIyODMzNTQxNiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5MzM3N0Y1RUMxMDUxMUUwODBFRkZDQkIyODMzNTQxNiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pia6udAAAAB5SURBVHjaYvz//z8DMYAFxli9ejWI6oByK5AVhYaGIhRCgQsQGwOxIFTxe5gEE5pCVyA+C8RpQLwbqgmrwvdQxauhis6AbMamEASUkEwCabyHTWE51BQlqBNMoDSKQhckX3dCFd3DCB4g2AP16VkoGwUwEhvgAAEGAAzQHBRSxqPRAAAAAElFTkSuQmCC) !important;
   }
-  
+
   /**********************************************/
   /* Prompt
   /**********************************************/
-  
+
   #-webkit-web-inspector #console-prompt {
     color: #F1F1F1 !important;
   }
-  
+
   #-webkit-web-inspector #console-prompt::before {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MjRGNTc2MTZDMTA2MTFFMDgwRUZGQ0JCMjgzMzU0MTYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MjRGNTc2MTdDMTA2MTFFMDgwRUZGQ0JCMjgzMzU0MTYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5MzM3N0Y2MUMxMDUxMUUwODBFRkZDQkIyODMzNTQxNiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5MzM3N0Y2MkMxMDUxMUUwODBFRkZDQkIyODMzNTQxNiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Plf0eOsAAAB4SURBVHjaYvz//z8DMYAFxph+BqyhA8qtQFaUacKIUAgFLkBsDMSCUMXvYRJMaApdgfgsEKcB8W6oJqwK30MVr4YqOgPEodgUgoASkkkgjfewKSyHmqIEdYIJlEZR6ILk606oonsYwQMEe6A+PQtlowBGYgMcIMAAF2wcFPVNZx8AAAAASUVORK5CYII=) !important;
     color: #FFF !important;
@@ -346,7 +346,7 @@
   /**********************************************/
   /* Layout
   /**********************************************/
-  
+
   #-webkit-web-inspector .script-view,
   #-webkit-web-inspector .properties-tree,
   #-webkit-web-inspector .pane,
@@ -354,7 +354,7 @@
   #-webkit-web-inspector .pane > .body .info {
     color: #CCC !important;
   }
-  
+
   #-webkit-web-inspector .script-view,
   #-webkit-web-inspector .text-editor-contents,
   #-webkit-web-inspector .pane.expanded,
@@ -363,81 +363,81 @@
     background: #1b1b1b !important;
     font-size: 12px !important;
   }
-  
+
   #-webkit-web-inspector .highlight {
     color: #F1F1F1;
   }
-  
+
   #-webkit-web-inspector li.hovered:not(.selected) .selection {
     background: rgba(255, 255, 255, .2) !important;
   }
-  
+
   #-webkit-web-inspector #elements-content .selected {
     background-color: #373B41 !important;
   }
-  
+
   #-webkit-web-inspector .parent::before {
     content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) !important;
     position: relative;
     z-index: 999;
   }
-  
+
   #-webkit-web-inspector .parent.expanded::before {
     content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
   }
-  
+
   /**********************************************/
   /* JavaScript
   /**********************************************/
-  
+
   #-webkit-web-inspector .webkit-line-content,
   #-webkit-web-inspector .webkit-javascript-ident {
     color: #FFF !important;
   }
-  
+
   #-webkit-web-inspector .webkit-javascript-keyword {
     color: #DB925F !important;
   }
-  
+
   #-webkit-web-inspector .webkit-javascript-comment {
     color: #7C7C7C !important;
   }
-  
+
   #-webkit-web-inspector .webkit-javascript-string {
     color: #B5BC67 !important;
   }
-  
+
   #-webkit-web-inspector .webkit-javascript-number {
     color: #DB925F !important;
   }
-  
+
   #-webkit-web-inspector .webkit-javascript-regexp {
     color: #C96666 !important;
   }
-  
+
   #-webkit-web-inspector .section .properties .name,
   #-webkit-web-inspector .event-properties .name {
     color: #82A1BE !important;
   }
-  
+
   /**********************************************/
   /* Everything Else
   /**********************************************/
-  
+
   #-webkit-web-inspector .editing {
     color: #fff !important;
     background-color: #000 !important;
   }
-  
+
   #-webkit-web-inspector .styles-section.read-only {
     background: #373B41 !important;
   }
-  
+
   #-webkit-web-inspector .styles-section,
   #-webkit-web-inspector .subtitle {
     color: #7C7C7C !important;
   }
-  
+
   #-webkit-web-inspector .styles-sidebar-separator,
   #-webkit-web-inspector .pane > .title {
     background-image: -webkit-linear-gradient(#555, #333) !important;
@@ -447,16 +447,16 @@
     text-shadow: black 0 1px 0 !important;
     text-overflow: ellipsis !important;
   }
-  
+
   #-webkit-web-inspector .pane > .title > button,
   #-webkit-web-inspector .pane > .title > select {
     -webkit-filter: invert(1);
   }
-  
+
   #-webkit-web-inspector .split-view-sidebar-right {
     background: #222 !important;
   }
-  
+
   #-webkit-web-inspector .styles-section .properties li.parent::before,
   #-webkit-web-inspector .section > .header::before,
   #-webkit-web-inspector .properties-tree li.parent::before,
@@ -464,7 +464,7 @@
   #-webkit-web-inspector .outline-disclosure li.parent::before {
     content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) !important;
   }
-  
+
   #-webkit-web-inspector .styles-section .properties li.parent.expanded::before,
   #-webkit-web-inspector .section.expanded > .header::before,
   #-webkit-web-inspector .properties-tree li.parent.expanded::before,
@@ -472,63 +472,63 @@
   #-webkit-web-inspector .outline-disclosure li.parent.expanded::before {
     content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
   }
-  
+
   #-webkit-web-inspector .child-editing {
     color: #fff !important;
   }
-  
+
   #-webkit-web-inspector .section .properties .name,
   #-webkit-web-inspector .event-properties .name {
     color: #82A1BE !important;
   }
-  
+
   #-webkit-web-inspector .styles-selector {
     color: #C96666 !important;
   }
-  
+
   #-webkit-web-inspector .section .header {
     color: #CCC !important;
   }
-  
+
   #-webkit-web-inspector .properties .value {
     color: #C2C3C3 !important;
   }
-  
+
   #-webkit-web-inspector .metrics {
     color: #333 !important;
   }
-  
+
   #-webkit-web-inspector .metrics .border {
     border-color: #FFF !important;
   }
-  
+
   #-webkit-web-inspector .event-bars .event-bar .header .title {
     color: #969796 !important;
     text-shadow: none !important;
   }
-  
+
   #-webkit-web-inspector .console-formatted-number {
     color: #EEC574 !important;
   }
-  
+
   #-webkit-web-inspector .console-formatted-string {
     color: #B5BC67 !important;
   }
-  
+
   #-webkit-web-inspector .console-formatted-object,
   #-webkit-web-inspector .console-formatted-node,
   #-webkit-web-inspector .console-formatted-array {
     color: #7C7C7C !important;
   }
-  
+
   #-webkit-web-inspector .console-formatted-function {
     color: #FFF !important;
   }
-  
+
   #-webkit-web-inspector .console-formatted-regexp {
     color: #C96666 !important;
   }
-  
+
   #-webkit-web-inspector .styles-element-state-pane {
     background: #373B41 !important;
   }
@@ -537,5 +537,5 @@
  * Mac Specific
  */
  body.platform-mac .monospace, body.platform-mac .source-code {
-   font-family: 'Inconsolata', Menlo, clean, sans-serif !important;    
+   font-family: 'Inconsolata', Menlo, clean, sans-serif !important;
  }
