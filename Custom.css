@@ -14,7 +14,33 @@
 }
 
 
-
+/* New Stuff since Chromium update */
+.vbox {
+  background-color: #1b1b1b !important;
+}
+.tabbed-pane-header {
+  background-color: #333 !important;
+}
+#drawer-contents .vbox {
+  background-color: #0c0c0c !important;
+}
+#elements-crumbs {
+  background-color: #333 !important;
+}
+#elements-crumbs .crumb {
+  background-color: #1b1b1b;
+  color: #ccc;
+}
+#elements-crumbs .crumb.selected {
+  background-color: #00ade8 !important;
+}
+#error-warning-count {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+.elements-tree-outline .selected {
+  background-color: #2c2c2c !important;
+}
 
 /*******************************************************************************
  * Audits pane
